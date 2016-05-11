@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset="utf-8">
+  <title>Counter</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
+
+</head>
+<body>
+  <fieldset>
+    <legend>Counter</legend>
+    <h3>{{session['num']}} times</h3>
+    <a href="/plus"><button class="btn">Break Yo Self</button></a>
+    <a href="/clear"><button class="btn">Clear Dat</button></a>
+  </fieldset>
+  </body>
+</html>

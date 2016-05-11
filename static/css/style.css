@@ -1,0 +1,12 @@
+*{
+ 	margin: 0px auto;
+ 	padding: 0px auto;
+ }
+
+ .btn{
+   width:60px;
+   background-color: blue;
+   margin-bottom: 10px;
+   margin-left:325px;
+   color: white;
+}
